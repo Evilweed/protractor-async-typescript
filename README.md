@@ -1,14 +1,17 @@
-# protractor-async-typescript
-Testing protractor + typescrit + async/await functionality 
+# E2E TESTS
 
 ## Running project
 
-###Build
+###Prepare
 
-`npm istall`
+`npm install`
 
-`webdriver-manager start`
+`npm run compile:watch`
+
+`npm run webdriver:download:chromedriver`
+
+`npm run webdriver:download:firefox`
 
 ###Run
 
-`protractor conf.js`
+`npm run test`

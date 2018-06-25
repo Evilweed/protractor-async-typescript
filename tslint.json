@@ -13,7 +13,6 @@
     "no-bitwise": false,
     "no-conditional-assignment": false,
     "no-console": [false],
-    "no-debugger": true,
     "no-empty": false,
     "no-invalid-this": true,
     "no-null-keyword": false,
@@ -30,11 +29,6 @@
     "no-require-imports": true,
     "object-literal-sort-keys": false,
     "align": [false],
-    "comment-format": [
-      true,
-      "check-space",
-      "check-uppercase"
-    ],
     "interface-name": [
       true,
       "never-prefix"
@@ -102,5 +96,9 @@
     "no-access-missing-member": true,
     "invoke-injectable": true,
     "promise-function-async": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
 }

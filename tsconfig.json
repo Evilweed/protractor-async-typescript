@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2018",
     "module": "commonjs",
     "moduleResolution": "node",
     "inlineSourceMap": true,
     "declaration": false,
     "noImplicitAny": false,
-    "outDir": "tmp"
+    "outDir": "build",
+    "lib": ["ES2018"]
   },
   "exclude": [
     "node_modules",
-    "plugins.ts"
+    "build"
   ]
 }
